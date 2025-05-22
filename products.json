@@ -1,0 +1,912 @@
+{
+	"catalog": {
+		"title": "Каталог Теплиц и Материалов",
+		"categories": [
+			{
+				"category_name": "Дачные теплицы",
+				"category_slug": "dachnye-teplicy",
+				"products": [
+					{
+						"product_id": 1,
+						"product_name": "Теплица \"Киновская №1\"",
+						"product_slug": "teplicya-kinovskaya",
+						"is_popular": true,
+						"base_price": 21500,
+						"currency": "₽",
+						"images": [
+							"img/card.png",
+							"img/logotype-white.png",
+							"img/logotype.png",
+							"img/card.png"
+						],
+						"attributes": {
+							"metal_type": "20x20 мм",
+							"width": {
+								"options": [
+									"3 м"
+								],
+								"prices": [
+									0
+								]
+							},
+							"length": {
+								"options": [
+									"4 м",
+									"6 м",
+									"8 м",
+									"10 м"
+								],
+								"prices": [
+									0,
+									3000,
+									6000,
+									9000
+								]
+							},
+							"cover_type": {
+								"options": [
+									"Без покрытия",
+									"Поликарбонат",
+									"Пленка"
+								],
+								"prices": [
+									0,
+									8000,
+									6000
+								]
+							}
+						},
+						"accordion": {
+							"description": [
+								{
+									"feature": "Описание",
+									"value": [
+										"Теплица «Киновская» арочного типа предназначена для создания микроклимата, благоприятного для выращивания садово-огородных культур в весенне-летний период.",
+										"Особенности:",
+										"Сильные материалы, которые не боятся высоких температур.",
+										"Простота в монтаже и уходе."
+									]
+								}
+							],
+							"technical_specifications": [
+								{
+									"feature": "Технические характеристики",
+									"value": "3 м бла бла бла текст"
+								}
+							],
+							"cover_type": [
+								{
+									"feature": "Тип покрытия",
+									"value": "Поликарбонат или пленка"
+								}
+							],
+							"installation": [
+								{
+									"feature": "Монтаж",
+									"value": "Возможен только через нашу службу установки"
+								}
+							]
+						}
+					},
+					{
+						"product_id": 2,
+						"product_name": "Теплица \"Киновская №2\"",
+						"product_slug": "teplicya-kinovskaya-1",
+						"description": "Теплица прямостенного типа для дачи",
+						"base_price": 22300,
+						"currency": "₽",
+						"images": [
+							"img/card.png",
+							"img/card.png",
+							"img/card.png"
+						],
+						"attributes": {
+							"metal_type": "20x20 мм",
+							"width": {
+								"options": [
+									"3 м"
+								],
+								"prices": [
+									0
+								]
+							},
+							"length": {
+								"options": [
+									"4 м",
+									"6 м",
+									"8 м",
+									"10 м"
+								],
+								"prices": [
+									0,
+									3000,
+									6000,
+									9000
+								]
+							},
+							"cover_type": {
+								"options": [
+									"Без покрытия",
+									"Поликарбонат",
+									"Пленка"
+								],
+								"prices": [
+									0,
+									8000,
+									6000
+								]
+							}
+						}
+					},
+					{
+						"product_id": 3,
+						"product_name": "Теплица \"Киновская №3\"",
+						"product_slug": "teplicya-kinovskaya-3",
+						"description": "Теплица прямостенного типа для дачи",
+						"base_price": 25000,
+						"currency": "₽",
+						"images": [
+							"img/card.png",
+							"img/card.png",
+							"img/card.png"
+						],
+						"attributes": {
+							"metal_type": "20x20 мм",
+							"width": {
+								"options": [
+									"4 м"
+								],
+								"prices": [
+									0
+								]
+							},
+							"length": {
+								"options": [
+									"4 м",
+									"6 м",
+									"8 м",
+									"10 м"
+								],
+								"prices": [
+									0,
+									3000,
+									6000,
+									9000
+								]
+							},
+							"cover_type": {
+								"options": [
+									"Без покрытия",
+									"Поликарбонат",
+									"Пленка"
+								],
+								"prices": [
+									0,
+									8000,
+									6000
+								]
+							}
+						}
+					}
+				]
+			},
+			{
+				"category_name": "Промышленные теплицы",
+				"category_slug": "promyshlennye-teplicy",
+				"products": [
+					{
+						"product_id": 4,
+						"product_name": "Теплица \"Промышленная №1\"",
+						"product_slug": "teplicya-promishlennaya-1",
+						"description": "Теплица прямостенного типа для дачи",
+						"is_popular": true,
+						"base_price": 25000,
+						"currency": "₽",
+						"images": [
+							"img/card.png",
+							"img/card.png",
+							"img/card.png"
+						],
+						"attributes": {
+							"metal_type": "20x20 мм",
+							"width": {
+								"options": [
+									"4 м"
+								],
+								"prices": [
+									0
+								]
+							},
+							"length": {
+								"options": [
+									"4 м",
+									"6 м",
+									"8 м",
+									"10 м"
+								],
+								"prices": [
+									0,
+									3000,
+									6000,
+									9000
+								]
+							},
+							"cover_type": {
+								"options": [
+									"Без покрытия",
+									"Поликарбонат",
+									"Пленка"
+								],
+								"prices": [
+									0,
+									8000,
+									6000
+								]
+							}
+						}
+					},
+					{
+						"product_id": 4,
+						"product_name": "Теплица \"Промышленная №1\"",
+						"product_slug": "teplicya-promishlennaya-1",
+						"description": "Теплица прямостенного типа для дачи",
+						"base_price": 25000,
+						"currency": "₽",
+						"images": [
+							"img/card.png",
+							"img/card.png",
+							"img/card.png"
+						],
+						"attributes": {
+							"metal_type": "20x20 мм",
+							"width": {
+								"options": [
+									"4 м"
+								],
+								"prices": [
+									0
+								]
+							},
+							"length": {
+								"options": [
+									"4 м",
+									"6 м",
+									"8 м",
+									"10 м"
+								],
+								"prices": [
+									0,
+									3000,
+									6000,
+									9000
+								]
+							},
+							"cover_type": {
+								"options": [
+									"Без покрытия",
+									"Поликарбонат",
+									"Пленка"
+								],
+								"prices": [
+									0,
+									8000,
+									6000
+								]
+							}
+						}
+					},
+					{
+						"product_id": 4,
+						"product_name": "Теплица \"Промышленная №1\"",
+						"product_slug": "teplicya-promishlennaya-1",
+						"description": "Теплица прямостенного типа для дачи",
+						"base_price": 25000,
+						"currency": "₽",
+						"images": [
+							"img/card.png",
+							"img/card.png",
+							"img/card.png"
+						],
+						"attributes": {
+							"metal_type": "20x20 мм",
+							"width": {
+								"options": [
+									"4 м"
+								],
+								"prices": [
+									0
+								]
+							},
+							"length": {
+								"options": [
+									"4 м",
+									"6 м",
+									"8 м",
+									"10 м"
+								],
+								"prices": [
+									0,
+									3000,
+									6000,
+									9000
+								]
+							},
+							"cover_type": {
+								"options": [
+									"Без покрытия",
+									"Поликарбонат",
+									"Пленка"
+								],
+								"prices": [
+									0,
+									8000,
+									6000
+								]
+							}
+						}
+					},
+					{
+						"product_id": 4,
+						"product_name": "Теплица \"Промышленная №1\"",
+						"product_slug": "teplicya-promishlennaya-1",
+						"description": "Теплица прямостенного типа для дачи",
+						"base_price": 25000,
+						"currency": "₽",
+						"images": [
+							"img/card.png",
+							"img/card.png",
+							"img/card.png"
+						],
+						"attributes": {
+							"metal_type": "20x20 мм",
+							"width": {
+								"options": [
+									"4 м"
+								],
+								"prices": [
+									0
+								]
+							},
+							"length": {
+								"options": [
+									"4 м",
+									"6 м",
+									"8 м",
+									"10 м"
+								],
+								"prices": [
+									0,
+									3000,
+									6000,
+									9000
+								]
+							},
+							"cover_type": {
+								"options": [
+									"Без покрытия",
+									"Поликарбонат",
+									"Пленка"
+								],
+								"prices": [
+									0,
+									8000,
+									6000
+								]
+							}
+						}
+					},
+					{
+						"product_id": 4,
+						"product_name": "Теплица \"Промышленная №1\"",
+						"product_slug": "teplicya-promishlennaya-1",
+						"description": "Теплица прямостенного типа для дачи",
+						"base_price": 25000,
+						"currency": "₽",
+						"images": [
+							"img/card.png",
+							"img/card.png",
+							"img/card.png"
+						],
+						"attributes": {
+							"metal_type": "20x20 мм",
+							"width": {
+								"options": [
+									"4 м"
+								],
+								"prices": [
+									0
+								]
+							},
+							"length": {
+								"options": [
+									"4 м",
+									"6 м",
+									"8 м",
+									"10 м"
+								],
+								"prices": [
+									0,
+									3000,
+									6000,
+									9000
+								]
+							},
+							"cover_type": {
+								"options": [
+									"Без покрытия",
+									"Поликарбонат",
+									"Пленка"
+								],
+								"prices": [
+									0,
+									8000,
+									6000
+								]
+							}
+						}
+					},
+					{
+						"product_id": 4,
+						"product_name": "Теплица \"Промышленная №1\"",
+						"product_slug": "teplicya-promishlennaya-1",
+						"description": "Теплица прямостенного типа для дачи",
+						"base_price": 25000,
+						"currency": "₽",
+						"images": [
+							"img/card.png",
+							"img/card.png",
+							"img/card.png"
+						],
+						"attributes": {
+							"metal_type": "20x20 мм",
+							"width": {
+								"options": [
+									"4 м"
+								],
+								"prices": [
+									0
+								]
+							},
+							"length": {
+								"options": [
+									"4 м",
+									"6 м",
+									"8 м",
+									"10 м"
+								],
+								"prices": [
+									0,
+									3000,
+									6000,
+									9000
+								]
+							},
+							"cover_type": {
+								"options": [
+									"Без покрытия",
+									"Поликарбонат",
+									"Пленка"
+								],
+								"prices": [
+									0,
+									8000,
+									6000
+								]
+							}
+						}
+					},
+					{
+						"product_id": 4,
+						"product_name": "Теплица \"Промышленная №1\"",
+						"product_slug": "teplicya-promishlennaya-1",
+						"description": "Теплица прямостенного типа для дачи",
+						"base_price": 25000,
+						"currency": "₽",
+						"images": [
+							"img/card.png",
+							"img/card.png",
+							"img/card.png"
+						],
+						"attributes": {
+							"metal_type": "20x20 мм",
+							"width": {
+								"options": [
+									"4 м"
+								],
+								"prices": [
+									0
+								]
+							},
+							"length": {
+								"options": [
+									"4 м",
+									"6 м",
+									"8 м",
+									"10 м"
+								],
+								"prices": [
+									0,
+									3000,
+									6000,
+									9000
+								]
+							},
+							"cover_type": {
+								"options": [
+									"Без покрытия",
+									"Поликарбонат",
+									"Пленка"
+								],
+								"prices": [
+									0,
+									8000,
+									6000
+								]
+							}
+						}
+					},
+					{
+						"product_id": 4,
+						"product_name": "Теплица \"Промышленная №1\"",
+						"product_slug": "teplicya-promishlennaya-1",
+						"description": "Теплица прямостенного типа для дачи",
+						"base_price": 25000,
+						"currency": "₽",
+						"images": [
+							"img/card.png",
+							"img/card.png",
+							"img/card.png"
+						],
+						"attributes": {
+							"metal_type": "20x20 мм",
+							"width": {
+								"options": [
+									"4 м"
+								],
+								"prices": [
+									0
+								]
+							},
+							"length": {
+								"options": [
+									"4 м",
+									"6 м",
+									"8 м",
+									"10 м"
+								],
+								"prices": [
+									0,
+									3000,
+									6000,
+									9000
+								]
+							},
+							"cover_type": {
+								"options": [
+									"Без покрытия",
+									"Поликарбонат",
+									"Пленка"
+								],
+								"prices": [
+									0,
+									8000,
+									6000
+								]
+							}
+						}
+					},
+					{
+						"product_id": 4,
+						"product_name": "Теплица \"Промышленная №1\"",
+						"product_slug": "teplicya-promishlennaya-1",
+						"description": "Теплица прямостенного типа для дачи",
+						"base_price": 25000,
+						"currency": "₽",
+						"images": [
+							"img/card.png",
+							"img/card.png",
+							"img/card.png"
+						],
+						"attributes": {
+							"metal_type": "20x20 мм",
+							"width": {
+								"options": [
+									"4 м"
+								],
+								"prices": [
+									0
+								]
+							},
+							"length": {
+								"options": [
+									"4 м",
+									"6 м",
+									"8 м",
+									"10 м"
+								],
+								"prices": [
+									0,
+									3000,
+									6000,
+									9000
+								]
+							},
+							"cover_type": {
+								"options": [
+									"Без покрытия",
+									"Поликарбонат",
+									"Пленка"
+								],
+								"prices": [
+									0,
+									8000,
+									6000
+								]
+							}
+						}
+					},
+					{
+						"product_id": 4,
+						"product_name": "Теплица \"Промышленная №1\"",
+						"product_slug": "teplicya-promishlennaya-1",
+						"description": "Теплица прямостенного типа для дачи",
+						"base_price": 25000,
+						"currency": "₽",
+						"images": [
+							"img/card.png",
+							"img/card.png",
+							"img/card.png"
+						],
+						"attributes": {
+							"metal_type": "20x20 мм",
+							"width": {
+								"options": [
+									"4 м"
+								],
+								"prices": [
+									0
+								]
+							},
+							"length": {
+								"options": [
+									"4 м",
+									"6 м",
+									"8 м",
+									"10 м"
+								],
+								"prices": [
+									0,
+									3000,
+									6000,
+									9000
+								]
+							},
+							"cover_type": {
+								"options": [
+									"Без покрытия",
+									"Поликарбонат",
+									"Пленка"
+								],
+								"prices": [
+									0,
+									8000,
+									6000
+								]
+							}
+						}
+					},
+					{
+						"product_id": 4,
+						"product_name": "Теплица \"Промышленная №1\"",
+						"product_slug": "teplicya-promishlennaya-1",
+						"description": "Теплица прямостенного типа для дачи",
+						"base_price": 25000,
+						"currency": "₽",
+						"images": [
+							"img/card.png",
+							"img/card.png",
+							"img/card.png"
+						],
+						"attributes": {
+							"metal_type": "20x20 мм",
+							"width": {
+								"options": [
+									"4 м"
+								],
+								"prices": [
+									0
+								]
+							},
+							"length": {
+								"options": [
+									"4 м",
+									"6 м",
+									"8 м",
+									"10 м"
+								],
+								"prices": [
+									0,
+									3000,
+									6000,
+									9000
+								]
+							},
+							"cover_type": {
+								"options": [
+									"Без покрытия",
+									"Поликарбонат",
+									"Пленка"
+								],
+								"prices": [
+									0,
+									8000,
+									6000
+								]
+							}
+						}
+					}
+				]
+			},
+			{
+				"category_name": "Тепличные пленки",
+				"category_slug": "plenka",
+				"products": [
+					{
+						"product_id": 3,
+						"product_name": "Плёнка Светлица",
+						"product_slug": "plenka-1",
+						"description": "Плёнка прямостенного типа для дачи",
+						"is_popular": true,
+						"base_price": 10000,
+						"currency": "₽",
+						"images": [
+							"img/card.png",
+							"img/card.png",
+							"img/card.png"
+						],
+						"attributes": {
+							"width": {
+								"options": [
+									"6 м"
+								],
+								"prices": [
+									0
+								]
+							},
+							"length": {
+								"options": [
+									"33 м",
+									"50 м",
+									"100 м"
+								],
+								"prices": [
+									0,
+									5000,
+									15000
+								]
+							},
+							"thickness": {
+								"options": [
+									"120 мкм",
+									"150 мкм",
+									"180 мкм",
+									"200 мкм"
+								],
+								"prices": [
+									-2000,
+									0,
+									2000,
+									4000
+								]
+							}
+						},
+						"accordion": {
+							"description": "Плёнка для теплиц, обеспечивает отличный микроклимат для растений.",
+							"technical_specifications": [
+								{
+									"feature": "Ширина",
+									"value": "6 м"
+								},
+								{
+									"feature": "Длина",
+									"value": "50 м"
+								},
+								{
+									"feature": "ddd",
+									"value": "180 мкм"
+								}
+							]
+						}
+					},
+					{
+						"product_id": 3,
+						"product_name": "тест пленка 2",
+						"product_slug": "plenochka-pryamostennaya-2",
+						"description": "пленка прямостенного типа для дачи",
+						"is_popular": true,
+						"base_price": 25000,
+						"currency": "₽",
+						"images": [
+							"img/card.png"
+						],
+						"attributes": {
+							"width": {
+								"options": [
+									"4 м"
+								],
+								"prices": [
+									0
+								]
+							},
+							"length": {
+								"options": [
+									"4 м",
+									"6 м"
+								],
+								"prices": [
+									0,
+									3500,
+									4500,
+									5500,
+									6500,
+									7500,
+									8500
+								]
+							},
+							"cover_type": {
+								"options": [
+									"Поликарбонат",
+									"Пленка"
+								],
+								"prices": [
+									0,
+									-1200
+								]
+							}
+						}
+					}
+				]
+			},
+			{
+				"category_name": "Поликарбонат",
+				"category_slug": "polikarbonat",
+				"products": []
+			},
+			{
+				"category_name": "Крепеж",
+				"category_slug": "fastener",
+				"products": []
+			},
+			{
+				"category_name": "Оборудование для полива",
+				"category_slug": "oborudovanie-dlya-poliva",
+				"products": []
+			},
+			{
+				"category_name": "Укрывные материалы",
+				"category_slug": "ukryvnye-materialy",
+				"products": []
+			},
+			{
+				"category_name": "Затеняющие сети",
+				"category_slug": "zatenyayushchie-seti",
+				"products": []
+			},
+			{
+				"category_name": "Системы вентиляции",
+				"category_slug": "sistemy-ventilyatsii",
+				"products": []
+			},
+			{
+				"category_name": "Удобрения",
+				"category_slug": "udobreniya",
+				"products": []
+			},
+			{
+				"category_name": "Освещение",
+				"category_slug": "osveshenie",
+				"products": []
+			}
+		]
+	}
+}

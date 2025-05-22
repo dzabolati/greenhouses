@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+	<title>Теплицы Осетии</title>
+</head>
+
+<body>
+	<header class="header">
+		<div class="header__wrapper wrapper">
+			<div class="header__container container">
+				<div class="header__logo logo">
+					<img src="img/logotype.png" alt="">
+				</div>
+				<div class="header__menu menu">
+					<ul class="header__list menu__list">
+						<li class="header__item menu__item"><a href="index.html">Главная</a></li>
+						<li class="header__item menu__item"><a href="catalog.html">Каталог</a></li>
+						<li class="header__item menu__item"><a href="services.html">Услуги</a></li>
+						<li class="header__item menu__item"><a href="delivery.html">Доставка и оплата</a></li>
+						<li class="header__item menu__item"><a href="about.html">О Компании</a></li>
+						<li class="header__item menu__item"><a href="contacts.html">Контакты</a></li>
+					</ul>
+					<div class="burger">
+						<span></span>
+					</div>
+				</div>
+				<div class="header__buttons">
+					<div class="header__cart cart">
+						<button onclick="document.location='cart.html'" class="cart__btn">
+							<img src="img/icons/cart.svg" alt="">
+						</button>
+						<div class="cart__count"><span>0</span></div>
+					</div>
+					<div class="header__call call">
+						<button class="call__btn">Обратный звонок</button>
+					</div>
+				</div>
+				<div class="popup-call">
+					<form method="POST" class="popup-call__form">
+						<img src="img/icons/close_icon.svg" alt="close" class="popup-call__close">
+						<input type="hidden" name="form_type" value="callback">
+						<div class="popup-call__group">
+							<label class="popup-call__text">ФИО <b class="popup-call__text-red">*</b></label>
+							<input type="text" name="user_name" placeholder="Фамилия Имя Отчество" required>
+						</div>
+						<div class="popup-call__group">
+							<label class="popup-call__phone">Телефон <b class="popup-call__text-red">*</b></label>
+							<input type="tel" name="user_phone" placeholder="+7 (***) ***-**-**" required>
+						</div>
+						<div class="popup-call__group">
+							<p class="popup-call__check">Нажимая на кнопку, Вы даете согласие на обработку <a
+									href="#">персональных
+									данных</a>
+							</p>
+						</div>
+						<button class="popup-call__btn btn" name="user_submit">Отправить</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</header>
+	<main>
+		<section class="hero">
+			<div class="hero__wrapper wrapper">
+				<div class="hero__container container">
+					<div class="hero__desc">
+						<h1 class="hero__title">
+							Теплицы Осетии - <span>
+								компания по производству и реализации теплиц и
+								тепличного оборудования
+							</span>
+						</h1>
+						<div class="hero__subtitle">
+							<p>
+								Ваш надежный партнер для успешного сельского хозяйства
+							</p>
+							<p>
+								Теплицы различного назначения и уровня сложности, подходящие как для любителей -
+								садоводов, так и для профессиональных фермеров.
+							</p>
+							<p>
+								Помимо теплиц, мы предлагаем широкий ассортимент тепличного оборудования: системы
+								орошения, обогрева, вентиляции и освещения.
+							</p>
+						</div>
+						<button onclick="document.location='about.html'" class="hero__btn btn">Подробнее</button>
+						<svg class="hero__back" viewBox="0 0 208 198" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path
+								d="M100.575 121.338C92.7637 118.985 82.5439 78.0283 10.8783 90.012C2.36168 97.6563 19.9031 153.301 84.8616 133.54C106.633 131.715 121.054 150.364 125.628 158.301L134.665 152.723C134.665 152.723 108.673 126.442 123.142 105.002C132.989 90.4159 169.011 65.4529 146.286 2.8066C121.093 3.34526 66.7239 66.1679 100.575 121.338ZM81.4189 120.227C80.7375 121.744 78.9939 122.424 77.5266 121.746C67.332 117.022 41.2858 107.68 30.6048 104.997C29.0392 104.606 28.0995 102.975 28.5105 101.363C28.9146 99.7495 30.5164 98.7608 32.0805 99.1595C43.4446 102.041 69.1904 111.277 79.9955 116.251C81.4628 116.929 82.1003 118.71 81.4189 120.227ZM128.011 34.8968C116.415 58.126 112.721 87.1473 112.104 102.053C112.036 103.709 110.666 105.017 109.054 104.971C107.439 104.92 106.187 103.537 106.258 101.873C106.935 86.3457 110.588 56.8076 122.802 32.2224C123.541 30.7315 125.305 30.1294 126.747 30.8658C128.184 31.6048 128.749 33.406 128.011 34.8968Z"
+								fill="#06CC0E" fill-opacity="0.25" />
+						</svg>
+					</div>
+					<div class="hero__slider swiper mySwiper">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide"><img src="img/hero/slider__img.png" alt=""></div>
+							<div class="swiper-slide"><img src="img/hero/slider__img.png" alt=""></div>
+							<div class="swiper-slide"><img src="img/hero/slider__img.png" alt=""></div>
+						</div>
+						<div class="swiper-pagination"></div>
+						<div class="swiper-button-prev"></div>
+						<div class="swiper-button-next"></div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="catalog">
+			<div class="catalog__wrapper wrapper">
+				<div class="catalog__container container">
+					<div class="catalog__desc">
+						<h2 class="catalog__title title">Каталог</h2>
+						<ul class="catalog__menu" id="catalog-list-index">
+						</ul>
+						<button onclick="document.location='catalog.html'" class="catalog__btn btn">Перейти в
+							каталог</button>
+					</div>
+					<div class="catalog__img">
+						<img src="img/catalog/catalog__img.png" alt="">
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="services">
+			<div class="services__wrapper wrapper">
+				<div class="services__container container">
+					<h2 class="services__title title">Услуги</h2>
+					<details open class="services__details details" name="faq">
+						<summary class="details__title"><img class="details__icon" src="img/icons/icon-green.svg"
+								alt="">Собственное
+							производство любительских и промышленных теплиц
+						</summary>
+						<div class="details__content">
+							<p>Мы ценим Ваше время, поэтому, коротко о главном.
+								Наша компания была образована с целью предложить Российскому рынку профессиональные
+								решения для фермерского хозяйства. Сегодня мы поставляем нашу продукцию различных
+								ценовых категорий в большинство регионов Российской Федерации, а так же являемся
+								дистрибьюторами лучших Российских производителей. Среди наших клиентов, как крупные
+								компании, так и частные заказчики.
+							</p>
+						</div>
+					</details>
+					<details class="services__details details" name="faq">
+						<summary class="details__title"><img class="details__icon" src="img/icons/icon-car.svg"
+								alt="">Поставки нашей продукции осуществляют двое умелых водил, которые
+							никогда не пасуют и никогда не проигрывают</summary>
+						<div class="details__content">
+							<p>Мы ценим Ваше время, поэтому, коротко о главном.
+								Наша компания была образована с целью предложить Российскому рынку профессиональные
+								решения для фермерского хозяйства. Сегодня мы поставляем нашу продукцию различных
+								ценовых категорий в большинство регионов Российской Федерации, а так же являемся
+								дистрибьюторами лучших Российских производителей. Среди наших клиентов, как крупные
+								компании, так и частные заказчики.
+							</p>
+						</div>
+					</details>
+					<details class="services__details details" name="faq">
+						<summary class="details__title">
+							<img class="details__icon" src="img/icons/icon-man.svg" alt="">Проектирование,
+							технические
+							расчеты и разработка концепции
+							тепличного хозяйства
+						</summary>
+						<div class="details__content">
+							<p>Мы ценим Ваше время, поэтому, коротко о главном.
+								Наша компания была образована с целью предложить Российскому рынку профессиональные
+								решения для фермерского хозяйства. Сегодня мы поставляем нашу продукцию различных
+								ценовых категорий в большинство регионов Российской Федерации, а так же являемся
+								дистрибьюторами лучших Российских производителей. Среди наших клиентов, как крупные
+								компании, так и частные заказчики.</p>
+						</div>
+					</details>
+					<details class="services__details details" name="faq">
+						<summary class="details__title"><img class="details__icon" src="img/icons/icon-mode.svg" alt="">
+							Модернизация теплиц</summary>
+						<div class="details__content">
+							<p>Мы ценим Ваше время, поэтому, коротко о главном.
+								Наша компания была образована с целью предложить Российскому рынку профессиональные
+								решения для фермерского хозяйства. Сегодня мы поставляем нашу продукцию различных
+								ценовых категорий в большинство регионов Российской Федерации, а так же являемся
+								дистрибьюторами лучших Российских производителей. Среди наших клиентов, как крупные
+								компании, так и частные заказчики.</p>
+						</div>
+					</details>
+					<details class="services__details details" name="faq">
+						<summary class="details__title">
+							<img class="details__icon" src="img/icons/icon-fix.svg" alt="">Ремонт и восстановление
+						</summary>
+						<div class="details__content">
+							<p>Мы ценим Ваше время, поэтому, коротко о главном.
+								Наша компания была образована с целью предложить Российскому рынку профессиональные
+								решения для фермерского хозяйства. Сегодня мы поставляем нашу продукцию различных
+								ценовых категорий в большинство регионов Российской Федерации, а так же являемся
+								дистрибьюторами лучших Российских производителей. Среди наших клиентов, как крупные
+								компании, так и частные заказчики.</p>
+						</div>
+					</details>
+				</div>
+			</div>
+		</section>
+		<section class="popular">
+			<div class="popular__wrapper wrapper">
+				<div class="popular__container container">
+					<h2 class="popular__title title">Популярные</h2>
+					<div class="popular__cards" id="popular-list">
+					</div>
+					<div class="popular__btn">
+						<button onclick="document.location='catalog.html'" class="btn">Перейти в каталог</button>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="consult">
+			<div class="consult__wrapper wrapper">
+				<div class="consult__container container">
+					<h3 class="consult__title">Остались вопросы и нужна <br> консультация?</h3>
+					<div class="consult__form">
+						<form class="form" method="post">
+							<div class="form__wrapper">
+								<input type="hidden" name="form_type" value="message">
+								<div class="form__block">
+									<input class="form__item" type="text" name="user_name" id="" placeholder="Ваше имя*"
+										required>
+								</div>
+								<div class="form__block">
+									<input minlength="6" class="form__item" type="tel" name="user_phone" id=""
+										placeholder="Ваш телефон*" required>
+								</div>
+								<div class="form__block"><input class="form__item" type="email" name="user_email" id=""
+										placeholder="Ваш e-mail"></div>
+								<div class="form__block">
+									<textarea class="form__item form__textarea" name="user_message" id=""
+										placeholder="Ваше сообщение"></textarea>
+								</div>
+								<button class="form__btn btn" name="user_submit">Отправить</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+		<div class="btn-up">
+			<img src="img/icons/arrow-top.svg" alt="Вернуться наверх">
+		</div>
+	</main>
+	<footer class="footer">
+		<div class="footer__wrapper wrapper">
+			<div class="footer__container container">
+				<div class="footer__logo logo">
+					<img src="img/logotype-white.png" alt="">
+					<p>&#169; «DavRus» LLC. 2017-2025</p>
+				</div>
+				<div class="footer__menu">
+					<p>Каталог товаров</p>
+					<ul class="footer__list">
+						<li class="footer__item"><a href="#">Теплицы</a></li>
+						<li class="footer__item"><a href="#">Тепличные пленки</a></li>
+						<li class="footer__item"><a href="#">Поликарбонат</a></li>
+						<li class="footer__item"><a href="#">Крепёж</a></li>
+						<li class="footer__item"><a href="#">Оборудование для полива</a></li>
+						<li class="footer__item"><a href="#">Укрывные материалы</a></li>
+						<li class="footer__item"><a href="#">Затеняющие сети</a></li>
+					</ul>
+				</div>
+				<div class="footer__faq faq">
+					<ul class="faq__list">
+						<li class="faq__item"><a href="#">Как заказать</a></li>
+						<li class="faq__item"><a href="#">Оплата</a></li>
+						<li class="faq__item"><a href="#">Доставка</a></li>
+						<li class="faq__item"><a href="#">Реквизиты компании</a></li>
+					</ul>
+				</div>
+				<div class="footer__contacts">
+					<p>
+						РСО-Алания, г. Владикавказ, <br> ул. 6-я промышленная, д. 3
+					</p>
+					<p>
+						<a href="tel:+79999999999">+7 (918) 822-60-20</a>
+					</p>
+					<p>
+						<a href="mailto:valvedance93@gmail.com">info@teplici-osetii.ru</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script src="js/script.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+	<script src="js/popular.js"></script>
+	<script>
+		var swiper = new Swiper(".mySwiper", {
+			spaceBetween: 10,
+			centeredSlides: true,
+			autoplay: {
+				delay: 2500,
+				disableOnInteraction: false,
+			},
+			pagination: {
+				el: ".swiper-pagination",
+				clickable: true,
+			},
+			navigation: {
+				nextEl: ".swiper-button-next",
+				prevEl: ".swiper-button-prev",
+			},
+		});
+	</script>
+</body>
+
+</html>

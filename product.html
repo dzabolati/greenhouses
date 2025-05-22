@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Теплица "Киновская"</title>
+</head>
+
+<body>
+	<header class="header">
+		<div class="header__wrapper wrapper">
+			<div class="header__container container">
+				<div class="header__logo logo">
+					<img src="img/logotype.png" alt="">
+				</div>
+				<div class="header__menu menu">
+					<ul class="header__list menu__list">
+						<li class="header__item menu__item"><a href="index.html">Главная</a></li>
+						<li class="header__item menu__item"><a href="catalog.html">Каталог</a></li>
+						<li class="header__item menu__item"><a href="services.html">Услуги</a></li>
+						<li class="header__item menu__item"><a href="delivery.html">Доставка и оплата</a></li>
+						<li class="header__item menu__item"><a href="about.html">О Компании</a></li>
+						<li class="header__item menu__item"><a href="contacts.html">Контакты</a></li>
+					</ul>
+					<div class="burger">
+						<span></span>
+					</div>
+				</div>
+				<div class="header__buttons">
+					<div class="header__cart cart">
+						<button onclick="document.location='cart.html'" class="cart__btn">
+							<img src="img/icons/cart.svg" alt="">
+						</button>
+						<div class="cart__count"><span>0</span></div>
+					</div>
+					<div class="header__call call">
+						<button class="call__btn">Обратный звонок</button>
+					</div>
+				</div>
+				<div class="popup-call">
+					<form method="POST" class="popup-call__form">
+						<img src="img/icons/close_icon.svg" alt="close" class="popup-call__close">
+						<input type="hidden" name="form_type" value="callback">
+						<div class="popup-call__group">
+							<label class="popup-call__text">ФИО <b class="popup-call__text-red">*</b></label>
+							<input type="text" name="user_name" placeholder="Фамилия Имя Отчество" required>
+						</div>
+						<div class="popup-call__group">
+							<label class="popup-call__phone">Телефон <b class="popup-call__text-red">*</b></label>
+							<input type="tel" name="user_phone" placeholder="+7 (***) ***-**-**" required>
+						</div>
+						<div class="popup-call__group">
+							<p class="popup-call__check">Нажимая на кнопку, Вы даете согласие на обработку <a
+									href="#">персональных
+									данных</a>
+							</p>
+						</div>
+						<button class="popup-call__btn btn" name="user_submit">Отправить</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</header>
+	<main>
+		<div class="breadcrumbs">
+			<div class="breadcrumbs__wrapper wrapper">
+				<div class="breadcrumbs__container container">
+					<ul class="breadcrumbs__list">
+						<li class="breadcrumbs__item"><a href="#">Главная</a></li>
+						<li class="breadcrumbs__item"><a href="#">Каталог</a></li>
+						<li class="breadcrumbs__item"><a href="#">Дачные теплицы</a></li>
+						<li class="breadcrumbs__item"><a href="#">Теплица "Киновская"</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<section class="product">
+			<div class="product__wrapper wrapper">
+				<div class="product__container container">
+					<div class="product__info">
+						<div class="product__gallery gallery">
+							<div class="gallery__wrapper">
+								<div class="gallery__container">
+									<div class="gallery__arrow-up">
+										<button>
+											<svg width="11" height="7" viewBox="0 0 11 7" fill="none"
+												xmlns="http://www.w3.org/2000/svg">
+												<path fill-rule="evenodd" clip-rule="evenodd"
+													d="M5.5 4.80825e-07L11 5.5L9.5 7L5.5 3L1.5 7L-1.39876e-07 5.4L5.5 4.80825e-07Z"
+													fill="#535353" />
+											</svg>
+										</button>
+									</div>
+									<div class="gallery__images">
+										<a href="#"><img src="img/card.png" alt=""></a>
+										<a href="#"><img src="img/card.png" alt=""></a>
+										<a href="#"><img src="img/card.png" alt=""></a>
+									</div>
+									<div class="gallery__arrow-down">
+										<button>
+											<svg width="11" height="7" viewBox="0 0 11 7" fill="none"
+												xmlns="http://www.w3.org/2000/svg">
+												<path fill-rule="evenodd" clip-rule="evenodd"
+													d="M5.5 7L0 1.5L1.5 0L5.5 4L9.5 0L11 1.6L5.5 7Z" fill="#535353" />
+											</svg>
+										</button>
+									</div>
+								</div>
+								<div class="gallery__img"><img src="img/card.png" alt=""></div>
+							</div>
+						</div>
+						<div class="product__feature feature">
+							<h2 class="feature__title"></h2>
+							<div class="feature__wrapper">
+								<div class="feature__subtitle">
+									<p>Ширина теплицы</p>
+									<p>Длина теплицы</p>
+									<p>Тип покрытия</p>
+									<p>Кол-во, шт</p>
+									<div class="feature__price">
+										<span>21 300 </span> ₽
+									</div>
+								</div>
+								<div class="feature__option">
+									<div class="feature__width">
+										<button class="feature__btn">3 м</button>
+									</div>
+									<div class="feature__length">
+										<button class="feature__btn">4 м</button>
+										<button class="feature__btn">6 м</button>
+										<button class="feature__btn">8 м</button>
+										<button class="feature__btn">10 м</button>
+										<button class="feature__btn">12 м</button>
+										<button class="feature__btn">14 м</button>
+										<button class="feature__btn">16 м</button>
+										<button class="feature__btn">18 м</button>
+									</div>
+									<div class="feature__cover">
+										<button class="feature__btn">Поликарбонат</button>
+										<button class="feature__btn">Пленка</button>
+									</div>
+									<div class="feature__count">
+										<button class="feature__decrease">-</button>
+										<p>1</p>
+										<span>шт</span>
+										<button class="feature__increase">+</button>
+									</div>
+								</div>
+							</div>
+							<button class="feature__button btn">Добавить в корзину</button>
+						</div>
+					</div>
+					<div class="product__accordion">
+						<div class="product__subtitles">
+						</div>
+						<div class="product__items">
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="recommended">
+			<div class="recommended__wrapper wrapper">
+				<div class="recommended__container container">
+					<h4 class="recommended__title">Рекомендуем</h4>
+					<div class="recommended__cards" id="popular-list">
+					</div>
+				</div>
+			</div>
+		</section>
+		<div class="btn-up">
+			<img src="img/icons/arrow-top.svg" alt="Вернуться наверх">
+		</div>
+	</main>
+	<footer class="footer">
+		<div class="footer__wrapper wrapper">
+			<div class="footer__container container">
+				<div class="footer__logo logo">
+					<img src="img/logotype-white.png" alt="">
+					<p>&#169; «DavRus» LLC. 2017-2025</p>
+				</div>
+				<div class="footer__menu">
+					<p>Каталог товаров</p>
+					<ul class="footer__list">
+						<li class="footer__item"><a href="#">Теплицы</a></li>
+						<li class="footer__item"><a href="#">Тепличные пленки</a></li>
+						<li class="footer__item"><a href="#">Поликарбонат</a></li>
+						<li class="footer__item"><a href="#">Крепёж</a></li>
+						<li class="footer__item"><a href="#">Оборудование для полива</a></li>
+						<li class="footer__item"><a href="#">Укрывные материалы</a></li>
+						<li class="footer__item"><a href="#">Затеняющие сети</a></li>
+					</ul>
+				</div>
+				<div class="footer__faq faq">
+					<ul class="faq__list">
+						<li class="faq__item"><a href="#">Как заказать</a></li>
+						<li class="faq__item"><a href="#">Оплата</a></li>
+						<li class="faq__item"><a href="#">Доставка</a></li>
+						<li class="faq__item"><a href="#">Реквизиты компании</a></li>
+					</ul>
+				</div>
+				<div class="footer__contacts">
+					<p>
+						РСО-Алания, г. Владикавказ, <br> ул. 6-я промышленная, д. 3
+					</p>
+					<p>
+						<a href="tel:+79999999999">+7 (918) 822-60-20</a>
+					</p>
+					<p>
+						<a href="mailto:valvedance93@gmail.com">info@teplici-osetii.ru</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script src="js/script.js"></script>
+	<script src="js/product.js"></script>
+	<script src="js/popular.js"></script>
+
+</body>
+
+</html>

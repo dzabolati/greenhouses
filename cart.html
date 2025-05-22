@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Корзина - Теплицы Осетии</title>
+</head>
+
+<body>
+	<header class="header">
+		<div class="header__wrapper wrapper">
+			<div class="header__container container">
+				<div class="header__logo logo">
+					<img src="img/logotype.png" alt="">
+				</div>
+				<div class="header__menu menu">
+					<ul class="header__list menu__list">
+						<li class="header__item menu__item"><a href="index.html">Главная</a></li>
+						<li class="header__item menu__item"><a href="catalog.html">Каталог</a></li>
+						<li class="header__item menu__item"><a href="services.html">Услуги</a></li>
+						<li class="header__item menu__item"><a href="delivery.html">Доставка и оплата</a></li>
+						<li class="header__item menu__item"><a href="about.html">О Компании</a></li>
+						<li class="header__item menu__item"><a href="contacts.html">Контакты</a></li>
+					</ul>
+					<div class="burger">
+						<span></span>
+					</div>
+				</div>
+				<div class="header__buttons">
+					<div class="header__cart cart">
+						<button onclick="document.location='cart.html'" class="cart__btn">
+							<img src="img/icons/cart.svg" alt="">
+						</button>
+						<div class="cart__count"><span>0</span></div>
+					</div>
+					<div class="header__call call">
+						<button class="call__btn">Обратный звонок</button>
+					</div>
+				</div>
+				<div class="popup-call">
+					<form method="POST" class="popup-call__form">
+						<img src="img/icons/close_icon.svg" alt="close" class="popup-call__close">
+						<input type="hidden" name="form_type" value="callback">
+						<div class="popup-call__group">
+							<label class="popup-call__text">ФИО <b class="popup-call__text-red">*</b></label>
+							<input type="text" name="user_name" placeholder="Фамилия Имя Отчество" required>
+						</div>
+						<div class="popup-call__group">
+							<label class="popup-call__phone">Телефон <b class="popup-call__text-red">*</b></label>
+							<input type="tel" name="user_phone" placeholder="+7 (***) ***-**-**" required>
+						</div>
+						<div class="popup-call__group">
+							<p class="popup-call__check">Нажимая на кнопку, Вы даете согласие на обработку <a
+									href="#">персональных
+									данных</a>
+							</p>
+						</div>
+						<button class="popup-call__btn btn" name="user_submit">Отправить</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</header>
+	<main>
+		<div class="breadcrumbs">
+			<div class="breadcrumbs__wrapper wrapper">
+				<div class="breadcrumbs__container container">
+					<ul class="breadcrumbs__list">
+						<li class="breadcrumbs__item"><a href="#">Главная</a></li>
+						<li class="breadcrumbs__item"><a href="#">Корзина</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<section class="cart-page">
+			<div class="cart-page__wrapper wrapper">
+				<div class="cart-page__container container">
+					<h1 class="cart-page__title">Корзина</h1>
+					<div class="cart-page__items">
+						<div class="cart-page__item item">
+							<div class="item__wrapper">
+								<div class="item__info">
+									<div class="item__img">
+										<img src="img/card.png" alt="">
+									</div>
+									<div class="item__desc">
+										<div class="item__title">Теплица Киновская</div>
+										<div class="item__characters">
+											<div class="item__subtitles">
+												<p>Ширина</p>
+												<p>Длина</p>
+												<p>Покрытие</p>
+												<p>Сборка</p>
+											</div>
+											<div class="item__choose">
+												<p>3 метра</p>
+												<p>4 метра</p>
+												<p>Поликарбонат</p>
+												<p>Монтаж</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="item__count">
+									<button class="item__decrease item__btn">-</button>
+									<p>1</p>
+									<button class="item__increase item__btn">+</button>
+								</div>
+								<div class="item__price">
+									<p>21 300 Р</p>
+								</div>
+								<button class="item__delete">Удалить</button>
+							</div>
+						</div>
+						<div class="cart-page__item item">
+							<div class="item__wrapper">
+								<div class="item__info">
+									<div class="item__img">
+										<img src="img/card.png" alt="">
+									</div>
+									<div class="item__desc">
+										<div class="item__title">Теплица Киновская</div>
+										<div class="item__characters">
+											<div class="item__subtitles">
+												<p>Ширина</p>
+												<p>Длина</p>
+												<p>Покрытие</p>
+												<p>Сборка</p>
+											</div>
+											<div class="item__choose">
+												<p>3 метра</p>
+												<p>4 метра</p>
+												<p>Поликарбонат</p>
+												<p>Монтаж</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="item__count">
+									<button class="item__decrease item__btn">-</button>
+									<p>1</p>
+									<button class="item__increase item__btn">+</button>
+								</div>
+								<div class="item__price">
+									<p>21 300 Р</p>
+								</div>
+								<button class="item__delete">Удалить</button>
+							</div>
+						</div>
+						<div class="cart-page__item item">
+							<div class="item__wrapper">
+								<div class="item__info">
+									<div class="item__img">
+										<img src="img/card.png" alt="">
+									</div>
+									<div class="item__desc">
+										<div class="item__title">Теплица Киновская</div>
+										<div class="item__characters">
+											<div class="item__subtitles">
+												<p>Ширина</p>
+												<p>Длина</p>
+												<p>Покрытие</p>
+												<p>Сборка</p>
+											</div>
+											<div class="item__choose">
+												<p>3 метра</p>
+												<p>4 метра</p>
+												<p>Поликарбонат</p>
+												<p>Монтаж</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="item__count">
+									<button class="item__decrease item__btn">-</button>
+									<p>1</p>
+									<button class="item__increase item__btn">+</button>
+								</div>
+								<div class="item__price">
+									<p>21 300 Р</p>
+								</div>
+								<button class="item__delete">Удалить</button>
+							</div>
+						</div>
+					</div>
+					<div class="cart-page__controls">
+						<button onclick="document.location='catalog.html'" class="cart-page__back">Вернуться к
+							покупкам</button>
+						<div class="cart-page__final">
+							<div class="cart-page__finalPrice">
+								<p>Итого:</p>
+								<p>0 Р</p>
+							</div>
+							<button class="cart-page__btn btn">Отправить заявку</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<div class="popup">
+			<form method="POST" class="popup__form">
+				<img src="img/icons/close_icon.svg" alt="close" class="popup__close">
+				<input type="hidden" name="form_type" value="order">
+				<div class="popup__group">
+					<label class="popup__text">ФИО <b class="popup__text-red">*</b></label>
+					<input type="text" name="user_name" placeholder="Фамилия Имя Отчество" required>
+				</div>
+				<div class="popup__group">
+					<label class="popup__phone">Телефон <b class="popup__text-red">*</b></label>
+					<input type="tel" name="user_phone" placeholder="+7 (***) ***-**-**" required>
+				</div>
+				<div class="popup__group">
+					<label class="popup__email">E-Mail</label>
+					<input type="email" name="user_mail" placeholder="mail@mail.ru">
+				</div>
+				<div class="popup__group">
+					<label class="popup__message">Сообщение</label>
+					<textarea name="user_message" placeholder="Дополнительная информация"></textarea>
+				</div>
+				<div class="popup__group">
+					<p class="popup__check">Нажимая на кнопку, Вы даете согласие на обработку <a href="#">персональных
+							данных</a>
+					</p>
+				</div>
+				<button class="popup__btn btn" name="user_submit">Отправить</button>
+			</form>
+		</div>
+		<div class="btn-up">
+			<img src="img/icons/arrow-top.svg" alt="Вернуться наверх">
+		</div>
+	</main>
+	<footer class="footer">
+		<div class="footer__wrapper wrapper">
+			<div class="footer__container container">
+				<div class="footer__logo logo">
+					<img src="img/logotype-white.png" alt="">
+					<p>&#169; «DavRus» LLC. 2017-2025</p>
+				</div>
+				<div class="footer__menu">
+					<p>Каталог товаров</p>
+					<ul class="footer__list">
+						<li class="footer__item"><a href="#">Теплицы</a></li>
+						<li class="footer__item"><a href="#">Тепличные пленки</a></li>
+						<li class="footer__item"><a href="#">Поликарбонат</a></li>
+						<li class="footer__item"><a href="#">Крепёж</a></li>
+						<li class="footer__item"><a href="#">Оборудование для полива</a></li>
+						<li class="footer__item"><a href="#">Укрывные материалы</a></li>
+						<li class="footer__item"><a href="#">Затеняющие сети</a></li>
+					</ul>
+				</div>
+				<div class="footer__faq faq">
+					<ul class="faq__list">
+						<li class="faq__item"><a href="#">Как заказать</a></li>
+						<li class="faq__item"><a href="#">Оплата</a></li>
+						<li class="faq__item"><a href="#">Доставка</a></li>
+						<li class="faq__item"><a href="#">Реквизиты компании</a></li>
+					</ul>
+				</div>
+				<div class="footer__contacts">
+					<p>
+						РСО-Алания, г. Владикавказ, <br> ул. 6-я промышленная, д. 3
+					</p>
+					<p>
+						<a href="tel:+79999999999">+7 (918) 822-60-20</a>
+					</p>
+					<p>
+						<a href="mailto:valvedance93@gmail.com">info@teplici-osetii.ru</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script src="js/cart.js"></script>
+	<script src="js/accordion.js"></script>
+	<script src="js/script.js"></script>
+	<script src="js/popup.js"></script>
+</body>
+
+</html>

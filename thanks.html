@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Спасибо</title>
+</head>
+
+<body>
+	<header class="header">
+		<div class="header__wrapper wrapper">
+			<div class="header__container container">
+				<div class="header__logo logo">
+					<img src="img/logotype.png" alt="">
+				</div>
+				<div class="header__menu menu">
+					<ul class="header__list menu__list">
+						<li class="header__item menu__item"><a href="index.html">Главная</a></li>
+						<li class="header__item menu__item"><a href="catalog.html">Каталог</a></li>
+						<li class="header__item menu__item"><a href="services.html">Услуги</a></li>
+						<li class="header__item menu__item"><a href="delivery.html">Доставка и оплата</a></li>
+						<li class="header__item menu__item"><a href="about.html">О Компании</a></li>
+						<li class="header__item menu__item"><a href="contacts.html">Контакты</a></li>
+					</ul>
+					<div class="burger">
+						<span></span>
+					</div>
+				</div>
+				<div class="header__buttons">
+					<div class="header__cart cart">
+						<button onclick="document.location='cart.html'" class="cart__btn">
+							<img src="img/icons/cart.svg" alt="">
+						</button>
+						<div class="cart__count"><span>0</span></div>
+					</div>
+					<div class="header__call call">
+						<button class="call__btn">Обратный звонок</button>
+					</div>
+				</div>
+				<div class="popup-call">
+					<form method="POST" class="popup-call__form">
+						<img src="img/icons/close_icon.svg" alt="close" class="popup-call__close">
+						<input type="hidden" name="form_type" value="callback">
+						<div class="popup-call__group">
+							<label class="popup-call__text">ФИО <b class="popup-call__text-red">*</b></label>
+							<input type="text" name="user_name" placeholder="Фамилия Имя Отчество" required>
+						</div>
+						<div class="popup-call__group">
+							<label class="popup-call__phone">Телефон <b class="popup-call__text-red">*</b></label>
+							<input type="tel" name="user_phone" placeholder="+7 (***) ***-**-**" required>
+						</div>
+						<div class="popup-call__group">
+							<p class="popup-call__check">Нажимая на кнопку, Вы даете согласие на обработку <a
+									href="#">персональных
+									данных</a>
+							</p>
+						</div>
+						<button class="popup-call__btn btn" name="user_submit">Отправить</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</header>
+	<main>
+		<section class="thanks-page">
+			<div class="thanks-page__wrapper wrapper">
+				<div class="thanks-page__container container">
+					<h1 class="thanks-page__title">Спасибо!</h1>
+					<p class="thanks-page__subtitle">
+						Ваша заявка принята, в ближайшее <br> время наш менеджер с Вами свяжется
+					</p>
+				</div>
+			</div>
+		</section>
+		<div class="btn-up">
+			<img src="img/icons/arrow-top.svg" alt="Вернуться наверх">
+		</div>
+	</main>
+	<footer class="footer">
+		<div class="footer__wrapper wrapper">
+			<div class="footer__container container">
+				<div class="footer__logo logo">
+					<img src="img/logotype-white.png" alt="">
+					<p>&#169; «DavRus» LLC. 2017-2025</p>
+				</div>
+				<div class="footer__menu">
+					<p>Каталог товаров</p>
+					<ul class="footer__list">
+						<li class="footer__item"><a href="#">Теплицы</a></li>
+						<li class="footer__item"><a href="#">Тепличные пленки</a></li>
+						<li class="footer__item"><a href="#">Поликарбонат</a></li>
+						<li class="footer__item"><a href="#">Крепёж</a></li>
+						<li class="footer__item"><a href="#">Оборудование для полива</a></li>
+						<li class="footer__item"><a href="#">Укрывные материалы</a></li>
+						<li class="footer__item"><a href="#">Затеняющие сети</a></li>
+					</ul>
+				</div>
+				<div class="footer__faq faq">
+					<ul class="faq__list">
+						<li class="faq__item"><a href="#">Как заказать</a></li>
+						<li class="faq__item"><a href="#">Оплата</a></li>
+						<li class="faq__item"><a href="#">Доставка</a></li>
+						<li class="faq__item"><a href="#">Реквизиты компании</a></li>
+					</ul>
+				</div>
+				<div class="footer__contacts">
+					<p>
+						РСО-Алания, г. Владикавказ, <br> ул. 6-я промышленная, д. 3
+					</p>
+					<p>
+						<a href="tel:+79999999999">+7 (918) 822-60-20</a>
+					</p>
+					<p>
+						<a href="mailto:valvedance93@gmail.com">info@teplici-osetii.ru</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script src="js/script.js"></script>
+</body>
+
+</html>
